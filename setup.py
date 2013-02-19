@@ -22,13 +22,22 @@ setup(
     long_description=long_description,
     classifiers=[],
     keywords='',
-    author='Fanstatic Developers',
-    author_email='fanstatic@googlegroups.com',
+    author='Andreas Kaiser',
+    author_email='disko@binary-punks.com',
+    url='https://github.com/disko/js.ngupload',
     license='BSD',
     packages=find_packages(),
     namespace_packages=['js'],
     include_package_data=True,
     zip_safe=False,
-    install_requires=['fanstatic', 'setuptools', 'js.angular'],
-    entry_points={'fanstatic.libraries': ['ngupload = js.ngupload:library']},
+    install_requires=[
+        'fanstatic',
+        'js.angular'
+        'setuptools',
+        ],
+    entry_points={
+        'fanstatic.libraries': [
+            'ngupload = js.ngupload:library'
+            ]
+        },
     )
