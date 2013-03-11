@@ -1,7 +1,12 @@
 CHANGES
-*******
+=======
 
-0.1 (unreleased)
-===============================
+0.3.0
+-----
 
-- Initial release.
+-   Upgrade ngUpload to 0.3.0
+
+0.1
+---
+
+-   Initial release.

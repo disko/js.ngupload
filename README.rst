@@ -1,8 +1,8 @@
 js.ngupload
-***********
+===========
 
 Introduction
-============
+------------
 
 This library packages `ngUpload`_ for `fanstatic`_.
 
